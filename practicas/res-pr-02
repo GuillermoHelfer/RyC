@@ -1,0 +1,34 @@
+﻿PRACTICA 2:
+
+
+2. ¿Cuál es la función de la capa de aplicación?
+La capa de aplicación, en el contexto de redes de computadoras, es la capa más alta en el modelo OSI (Open Systems Interconnection). Su función principal es proporcionar servicios de red a las aplicaciones y a los usuarios finales. En otras palabras, actúa como un intermediario entre las aplicaciones que se ejecutan en dispositivos y la infraestructura de red subyacente.
+
+
+3. Si dos procesos deben comunicarse:
+	a. ¿Cómo podrían hacerlo si están en diferentes máquinas?
+	3.a: Mediante la RED.
+	b. Y si están en la misma máquina, ¿qué alternativas existen?
+	3.b: Meidante flujo de informacion por pipelines o memoria compartida.
+
+
+4. Explique brevemente cómo es el modelo Cliente/Servidor. De un ejemplo de un sistema Cliente/Servi-
+dor en la “vida cotidiana” y un ejemplo de un sistema informático que siga el modelo Cliente/Servidor.
+¿Conoce algún otro modelo de comunicación?
+En el modelo Cliente/Servidor, dos tipos de programas o entidades se comunican entre sí a través de una red o una interfaz de comunicación.
+Ej vida cotidiana: correo electronico.
+Ej sistema informatico: aplicacion web.
+Otros modelos de comunicacion pueden ser el P2P o una arquitectura de bus.
+
+5. Describa la funcionalidad de la entidad genérica “Agente de usuario” o “User agent”.
+� Es una interfaz entre el usuario y la aplicación de
+red.
+� Por ejemplo: en la WEB, el agente de usuario es
+el navegador, el cual permite al usuario visualizar
+las páginas WEB e interactuar con los elementos
+de la misma. El navegador es un proceso que
+envía/recibe mensajes por medio de un socket y
+además brinda la interfaz al usuario.
+
+6. Observe el indice de la RFC2616, busque el apartado donde se describe el requerimiento y la respuesta.
+¿Qué son y en qué se diferencian HTML y HTTP? ¿En que entidad ubicaría a HTML?
