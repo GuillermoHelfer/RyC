@@ -1,0 +1,16 @@
+stop and wait: altamente ineficiente por los tiempos de espera. Se pueden ver mas facil los errores.
+
+PIPELINING: 
+	ventana: espacio en un buffer que determina la cantidad de mensajes que se pueden enviar sin respuesta.
+	por la deteccion de perdidas, el tamanio del isn se corresponde con el tamanio de bytes a enviar.
+	para saber que se perdio un segemento, el protocolo necesita conocer: id y rtt. Se confirma con el segmento que no llego.
+	
+Go Back-n (buffer out of order):
+	Go-back N no admite segmentos fuera de orden, ni confirmaciones fuera de orden. 
+	Solo se confirman por la positiva los segmentos que se pudieron colocar en el buffer en orden.
+	Confirmar cada segmento tiene ventajas ante la p´erdida de los ACK
+	Si pierde uno segmento y se enviaron varios siguientes es como “vaciar” el pipe y volver atr´as: Go-Back-N.
+	Si se mantienen segmentos en el receptor m´as f´acil la recuperaci´on.
+	
+Selective Repeat:
+	

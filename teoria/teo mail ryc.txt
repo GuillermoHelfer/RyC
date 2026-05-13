@@ -1,0 +1,22 @@
+Clase de Email:
+
+
+	SMTP: simple mail transport protocol, para enviar un mail
+	
+	
+	protocolos para recibir:
+	POP:
+		Post Office Protocol. (se descargan los mails en una maquina local y solo se pueden acceder desde ella, "sistema de carta")
+	
+	IMAP:
+		Internet Mail Access Protocol. (mail cargados en el servidor de mail, multiple dispositivos)
+		
+		
+	COMPONENTES PRINCIPALES:
+	mua (usuario)
+	
+	mta (transferencia)
+	
+	mda (envio)
+	
+	
